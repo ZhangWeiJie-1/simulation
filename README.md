@@ -15,4 +15,5 @@ ros2 launch fishbot_description gazebo_sim.launch.py
 sudo apt install ros-$ROS_DISTRO-rqt-tf-tree
 rqt --force-discover
 
-
+fishbot.ros2_control.xacro
+告诉 Gazebo：机器人有哪些关节可以控制、采用什么硬件接口、加载什么控制器以及话题如何映射
