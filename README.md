@@ -6,3 +6,13 @@ launch之所以能启动，是因为把命令行集成了
 <img width="1307" height="1352" alt="截图 2026-07-25 22-07-34" src="https://github.com/user-attachments/assets/c1773ed6-623d-41f0-b259-1861ff22b413" />
 必须先humble@humble-VirtualBox:~/chapt6/chapt6_ws$ xacro /home/humble/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/fishbot.urdf.xacro
 再humble@humble-VirtualBox:~/chapt6/chapt6_ws$ ros2 launch fishbot_description display_robot.launch.py model:=/home/humble/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/fishbot.urdf.xacro
+
+进入Gazebo的学习后
+命令用的是colcon build
+ros2 launch fishbot_description gazebo_sim.launch.py
+
+要自己下载TF TREE插件
+sudo apt install ros-$ROS_DISTRO-rqt-tf-tree
+rqt --force-discover
+
+
