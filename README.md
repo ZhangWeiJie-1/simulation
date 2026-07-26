@@ -7,6 +7,7 @@ launch之所以能启动，是因为把命令行集成了
 必须先humble@humble-VirtualBox:~/chapt6/chapt6_ws$ xacro /home/humble/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/fishbot.urdf.xacro
 再humble@humble-VirtualBox:~/chapt6/chapt6_ws$ ros2 launch fishbot_description display_robot.launch.py model:=/home/humble/chapt6/chapt6_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/fishbot.urdf.xacro
 
+2026-07-26
 进入Gazebo的学习后
 命令用的是colcon build
 ros2 launch fishbot_description gazebo_sim.launch.py
@@ -17,3 +18,5 @@ rqt --force-discover
 
 fishbot.ros2_control.xacro
 告诉 Gazebo：机器人有哪些关节可以控制、采用什么硬件接口、加载什么控制器以及话题如何映射
+<img width="1152" height="136" alt="image" src="https://github.com/user-attachments/assets/ab526820-f588-496e-b373-fd972eab3e97" />
+
